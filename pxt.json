@@ -1,0 +1,28 @@
+{
+    "name": "Test DF Player + Stripe",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Informatiktheater": "github:mint-n-pepper/Informatiktheater#4d1e0e8c77f2d7d5c70eae044e95fd08fb1c4a31",
+        "MakerBit-MP3": "github:1010technologies/pxt-makerbit-mp3#v1.0.10",
+        "dfplayermini": "github:51bit/dfplayermini#v0.1.6"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
